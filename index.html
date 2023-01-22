@@ -10,7 +10,9 @@
     <script src="https://kit.fontawesome.com/273d1c4042.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="Imagenes para la pagina/Web/icons8-cv-windows-11-96.png">
     <link rel="stylesheet" type="text/css" href="parte_css.css" />
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
 <body>
     <header class="header">
         <nav class="nav">
@@ -20,8 +22,7 @@
             <li class="nav_li"><a href="contacto.html">Contacto</a></li>
           </ul>
           <ul class="nav_responsive-ul">
-            <div class="nav_responsive-button">
-            </div>
+            <button class="nav_responsive-button fa-solid fa-bars" input type="button"></button>
             <div class="nav_li-container">
               <li class="nav_responsive-li"><a href>Inicio</a></li>
               <li class="nav_responsive-li"><a href>Sobre mi</a></li>
@@ -33,17 +34,14 @@
     </header>
 
     <article>
-        <H1 class="Bienvenida">Hola, me llamo Max y soy desarrollador Front-End</H1>
+        <h1 class="Bienvenida">Hola, me llamo Max y soy desarrollador Front-End</h1>
 
         <input type="button" onclick="window.location.href='sobre_mi.html';" value="Ver más sobre mi" />
     </article>
 
     <aside>
-        <img src="archivos de la pagina/perfil.jpg" alt="Foto de Max que acompaña la pagina de inicio">
+        <img src="archivos de la pagina/perfil.jpg" class ="rounded float-end imagen" alt="Foto de Max que acompaña la pagina de inicio">
     </aside>
-    
-    <footer>
-        <p>Página creada por Pablo Robba</p>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
