@@ -9,20 +9,31 @@
     <title>Max Coleman | Curriculum Vitae </title>
     <script src="https://kit.fontawesome.com/273d1c4042.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="Imagenes para la pagina/Web/icons8-cv-windows-11-96.png">
+    <link rel="stylesheet" type="text/css" href="parte_css.css" />
 </head>
 <body>
-    <header>
-        <nav> 
-            <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="Sobre_mi.html">Sobre mi</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            </ul> 
+    <header class="header">
+        <nav class="nav">
+          <ul class="nav_ul">
+            <li class="nav_li"><a href="index.html">Inicio</a></li>
+            <li class="nav_li"><a href="Sobre_mi.html">Sobre mi</a></li>
+            <li class="nav_li"><a href="contacto.html">Contacto</a></li>
+          </ul>
+          <ul class="nav_responsive-ul">
+            <div class="nav_responsive-button">
+            </div>
+            <div class="nav_li-container">
+              <li class="nav_responsive-li"><a href>Inicio</a></li>
+              <li class="nav_responsive-li"><a href>Sobre mi</a></li>
+              <li class="nav_responsive-li"><a href>Contacto</a></li>
+            </div>
+            
+          </ul>
         </nav>
     </header>
 
     <article>
-        <H1>Hola, me llamo Max y soy desarrollador Front-End</H1>
+        <H1 class="Bienvenida">Hola, me llamo Max y soy desarrollador Front-End</H1>
 
         <input type="button" onclick="window.location.href='sobre_mi.html';" value="Ver más sobre mi" />
     </article>
