@@ -2,9 +2,11 @@
     box-sizing: content-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
   }
 .nav_responsive-ul {
-display: none;
+ display: none;
 }
 .nav{
   background-color: #2A2626 ;
@@ -16,11 +18,13 @@ display: none;
 .nav_li{
   list-style: none;
   display: inline-block;
-  margin: 5px;
+  
 }
 .nav_li a{
   color: #fff;
   text-decoration: none;
+  font-size: 2em;
+  padding: 10px;
 }
 .nav_li:hover{
 transform:scale(1.1);
@@ -50,3 +54,10 @@ transform:scale(1.1);
 
 }
 */
+.imagen{
+  width: 300px;
+  margin: 0px 200px 0px 5px;
+}
+.Bienvenida{
+  margin: 100px 200px 20px 150px;
+}
