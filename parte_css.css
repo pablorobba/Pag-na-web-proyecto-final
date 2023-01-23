@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
   }
 .nav_responsive-ul {
  display: none;
@@ -13,18 +12,17 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 13px;
 }
 .nav_li{
   list-style: none;
   display: inline-block;
-  
+  margin-top: 13px;
 }
 .nav_li a{
   color: #fff;
   text-decoration: none;
-  font-size: 2em;
-  padding: 10px;
+  padding: 8px;
+  
 }
 .nav_li:hover{
 transform:scale(1.1);
@@ -36,6 +34,94 @@ transform:scale(1.1);
   }
 .nav_responsive-button button{
   outline: none;
+}
+.imagen{
+ float: right;
+ width: 190px;
+ margin-right: 200px;
+}
+.Bienvenida{
+  margin: 79px 125px 100px 60px;
+  font-size: 50px;
+}
+.presentación{
+padding: 50px;
+text-align: justify;
+}
+.presentación_quien_soy{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.presentación_quien_soy-p{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.presentación_quien_soy-p2{
+  font-size: 25px
+}
+.habilidades-h2{
+ margin-left: 50px;
+ margin-bottom: 20px;
+}
+.habilidades_li{
+  list-style: none;
+}
+.habilidades_li-texto{
+display: inline-block;
+}
+.habilidades_li-imagen_html{
+width: 150px;
+}
+.habilidades_li-imagen_css{
+  width: 150px;
+}
+.habilidades_li-imagen_javascript{
+  width: 150px;
+}
+.habilidades_li-imagen_git{
+  width: 150px;
+}
+.footer{
+  display: inline-block;
+  background-color: #2A2626;
+  display: flex;
+  justify-content: flex-end;
+  clear: right;
+}
+.footer-text{
+  color: #fffefe;
+}
+.boton{
+  font-size: 25px;
+}
+.contacto{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.contacto-contactame{
+  margin-bottom: 100px;
+  font-size: 50px;
+}
+.contacto_ul-imagen_insta{
+  width: 300px;
+}
+.contacto_ul-imagen_face{
+  width: 300px;
+}
+.contacto_ul-imagen_twitter{
+  width: 300px;
+}
+.contacto_ul-imagen_wp{
+  width: 300px;
+}
+.mail{
+text-align: center;
+}
+.mail_h2{
+  font-size: 20px;
 }
 /*
 @media only screen and (max-width: 500px) {
@@ -54,10 +140,15 @@ transform:scale(1.1);
 
 }
 */
-.imagen{
-  width: 300px;
-  margin: 0px 200px 0px 5px;
+@media only screen and (max-width: 590px) {
+  .imagen{
+    display: none;
+  }
+  
 }
-.Bienvenida{
-  margin: 100px 200px 20px 150px;
+@media only screen and (max-width: 764px) {
+ .boton{
+    margin-left:50px;
+    margin-bottom: 50px;
+  } 
 }
