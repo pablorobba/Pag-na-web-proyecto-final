@@ -5,12 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="cv,Curriculum,Vitae,front-end,desarrollador">
-    <meta name="description" content="Curriculum vitae de desarrollador Front-End">
+    <meta name="description" content="Curriculum vitae ficticio del desarrollador Front-End, Max Coleman">
     <title>Max Coleman | Curriculum Vitae </title>
     <script src="https://kit.fontawesome.com/273d1c4042.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="Imagenes para la pagina/Web/icons8-cv-windows-11-96.png">
     <link rel="stylesheet" type="text/css" href="parte_css.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="CV de Max Coleman"/>
+    <meta name="twitter:description" content="El Curriculum vitae ficticio de Max Coleman"/>
+    <meta name="twitter:site" content="@maxcoleman"/>
+    <meta name="twitter:image" content="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg?w=2000"/>
+    <meta name="twitter:creator" content="@maxcoleman"/>
+    <meta property="og:title" content="Max Coleman | Cv" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content=" http://www.example.com" />
+    <meta property="og:image" content="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg?w=2000" />
+    <meta property="og:description" content="Cv de Max Coleman" />
 </head>
 <body>
     <header class="header">
@@ -36,11 +47,13 @@
         <article class="contacto">
             <h1 class="contacto-contactame">Contactame para que empezemos el trabajo </h1>
                 <ul class="contacto_ul">
+<!--Es un Cv normal, los siguientes links referirían a las redes sociales de la persona real dueña del cv. 
+Como este cv es ficticio, lo que hice fue poner los links referidos a las páginas principales de las redes sociale en cuestión-->
                     <div class="contacto_ul-imagen">
-                        <img class="contacto_ul-imagen_insta" src="Imagenes para la pagina/iconos redes sociales/instagram.png" alt="ícono instagram">
-                        <img class="contacto_ul-imagen_face" src="Imagenes para la pagina/iconos redes sociales/facebook.png" alt="ícono facebook">
-                        <img class="contacto_ul-imagen_twitter" src="Imagenes para la pagina/iconos redes sociales/twitter.png" alt="ícono twitter">
-                        <img class="contacto_ul-imagen_wp" src="Imagenes para la pagina/iconos redes sociales/whatsapp.png" alt="ícono whatsapp">
+                        <a title="instagram" href="https://www.instagram.com/"><img class="contacto_ul-imagen_insta" src="Imagenes para la pagina/iconos redes sociales/instagram.png" alt="ícono instagram"></a>
+                        <a title="facebook" href="https://www.facebook.com/"><img class="contacto_ul-imagen_face" src="Imagenes para la pagina/iconos redes sociales/facebook.png" alt="ícono facebook"></a>
+                        <a title="twitter" href="https://mobile.twitter.com/"><img class="contacto_ul-imagen_twitter" src="Imagenes para la pagina/iconos redes sociales/twitter.png" alt="ícono twitter"></a>
+                        <a title="whatsapp" href="https://web.whatsapp.com/"><img class="contacto_ul-imagen_wp" src="Imagenes para la pagina/iconos redes sociales/whatsapp.png" alt="ícono whatsapp"></a>
                     </div>
                 </ul>
         </article>
@@ -48,8 +61,9 @@
 
     <section>
         <article class="mail">
-            <h2 class="mail_h2">O podes enviarme un mail</h2>
-            <p class="mail_p">max.coleman@gmail.com</p>
+            <button id="botón" class="mail_h2">O podes enviarme un mail</button>
+            <p id="mensaje" class="mail_p"></p>
+
         </article>
     </section>
     
